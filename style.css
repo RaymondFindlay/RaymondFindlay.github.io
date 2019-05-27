@@ -1,0 +1,219 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: rgba(242, 242, 242, .6);
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box
+  }
+  
+  /*NAVBAR*/
+  .navbar {
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #31b0d5;
+  }
+  
+  .navbar a {
+    font-weight: 200;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    color: #31b0d5;
+    transform: scale(1.1);
+  }
+  
+  .anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+  }
+  
+  /*JUMBOTRON*/
+  .jumbotron {
+    height: 100vh;
+    margin-bottom: 0;
+    background:
+    linear-gradient(
+      180deg,
+      rgba(238, 174, 202, 0.4) 0%,
+      rgba(0, 0, 0, 0.3) 0%
+    ),
+        url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .jumbotron-text {
+    /*TAGLINE UNDER NAME*/
+    font-weight: 400;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  .jumbotron-text h1 {
+    /*YOUR NAME*/
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-text p {
+    margin: 0;
+  }
+  
+  /*SOCIAL LINKS*/
+  .ul-social {
+    text-align: center;
+    padding-left: 0;
+  }
+  
+  .li-social-links {
+    display: inline-block;
+    list-style: none;
+  }
+  
+  .social {
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+  }
+  
+  /*ARROW LINK*/
+  #down-arrow {
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  #down-arrow a {
+    color: white;
+  }
+  
+  /*CONTENT*/
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .white {
+    background: white;
+  }
+  
+  .side-content {
+    flex: 0 0 16.6%;
+  }
+  
+  .main-content {
+    flex: 0 0 66.6%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .side-content-sm {
+    flex: 0 0 10%;
+  }
+  
+  .main-content-lg {
+    flex: 0 0 80%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .box-shadow {
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+  }
+  
+  h2 {
+    font-weight: 200;
+    font-size: 2rem;
+    color: #31b0d5;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .content-body {
+    line-height: 1.5;
+    color: rgba(0,0,0,.75);
+  }
+  
+  /*EDUCATION*/
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 30px;
+  }
+  
+  .card-header {
+    padding: .75rem 1.25rem;
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,.075);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+  
+  .card-content {
+    padding: .25rem 1.25rem;
+    flex: 1 1 auto;
+  }
+  
+  h4 {
+    margin: 0;
+    font-weight: 400;
+    color: grey;
+  }
+  
+  .job-title {
+    float: right;
+  }
+  
+  /*SKILLS*/
+  .ul-skills {
+    text-align: center;
+    padding-left: 0;
+  }
+  
+  .li-skills {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: white;
+    background: #31b0d5;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+  }
+
+  /*CONTACT*/
+  .card-contact {
+    padding: .25rem 1.25rem;
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  .card-contact a {
+      text-decoration: none;
+  }
