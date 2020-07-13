@@ -168,6 +168,8 @@ body {
   }
   
   .card-header {
+    display: flex;
+    justify-content: space-between;
     padding: .75rem 1.25rem;
     background-color: white;
     border-bottom: 1px solid rgba(0,0,0,.075);
@@ -184,10 +186,6 @@ body {
     margin: 0;
     font-weight: 400;
     color: grey;
-  }
-  
-  .job-title {
-    float: right;
   }
   
   /*SKILLS*/
